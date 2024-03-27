@@ -1,0 +1,9 @@
+.footer-sanjula {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #929292;
+    text-align: center;
+    padding: 5px;
+}

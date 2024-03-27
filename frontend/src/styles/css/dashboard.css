@@ -1,0 +1,52 @@
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box {
+    height: 130px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+    padding: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.08);
+}
+
+.box.box1 {
+    background-color: lightskyblue;
+}
+
+.box.box2 {
+    background-color: lightgreen;
+}
+
+.box img {
+    height: 50px;
+}
+
+.box .text {
+    color: black;
+}
+
+.topic {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.topic-heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
